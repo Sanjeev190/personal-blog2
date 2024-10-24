@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Blog</h1>
+    </header>
+    <main>
+        <!-- <form id="blogForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="title">Blog Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="content">Blog Content:</label>
+            <textarea id="content" name="content" required></textarea>
+
+            <button type="submit">Submit Blog</button>
+            <p id="errorMessage" class="error-message"></p>
+        </form> -->
+        <form id="blogForm" class="container mt-5 p-4 border rounded shadow-lg bg-light">
+            <h2 class="text-center mb-4">Create a Blog Post</h2>
+        
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" name="username" class="form-control" placeholder="Enter your username" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="title" class="form-label">Blog Title</label>
+                <input type="text" id="title" name="title" class="form-control" placeholder="Enter the blog title" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="content" class="form-label">Blog Content</label>
+                <textarea id="content" name="content" class="form-control" rows="5" placeholder="Write your blog content" required></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn-primary w-100">Submit Blog</button>
+            <p id="errorMessage" class="text-danger text-center mt-3"></p>
+        </form>
+    </main>
+    <footer>
+        <a href="https://github.com/Sanjeev190">Github Profile</a>
+    </footer>
+    <script src="assets/js/form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

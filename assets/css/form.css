@@ -1,0 +1,14 @@
+form {
+    width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea, button {
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+}
